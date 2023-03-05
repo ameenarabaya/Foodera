@@ -1,0 +1,43 @@
+input{
+   width: 400px;
+   height:45px;
+  
+}
+.subs{
+    margin-bottom: 110px;
+}
+.subs h3{
+    text-align: center;
+    color: #43121d;
+    font-family: 'Quicksand', sans-serif;
+    font-weight:700;
+    font-size: 35px;
+}
+.subs p{
+    color: #555555;
+}
+.sub{
+    display: flex;
+    gap: 20px;
+}
+.subs .sub input{
+ border:3px solid #e5e5e5;
+ outline: none;
+}
+@media (max-width:768px) {
+    .sub{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        width: 100%;
+    } 
+    .sub .but{
+        width:100%;
+        margin:0 ;
+    }
+    .sub input{
+        width: 100%;
+    }
+}

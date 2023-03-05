@@ -1,0 +1,78 @@
+.container h1,
+p.firstP {
+    text-align: center;
+}
+
+.container h1 {
+    margin-bottom: 15px;
+    color: #43121d;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+
+}
+
+p.firstP {
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 90px;
+    color: #555555;
+    font-family: 'Roboto', sans-serif;
+}
+
+.all {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.all .contain {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.all .contain p {
+    margin: 0;
+}
+
+.all .contain span {
+    margin: 0;
+}
+
+.contain img {
+    border-radius: 10px;
+}
+
+.contain p.name {
+    color: #43121d;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.contain div.hello {
+    border-bottom: 1px solid #999999;
+}
+
+.contain div span.num {
+    font-size: 25px;
+    color: #a82d49;
+    font-weight: bold;
+    margin-right: 10px;
+
+}
+
+.contain div span.deleted {
+    font-size: 25px;
+    color: #999999;
+    font-weight: bold;
+    text-decoration: line-through;
+}
+
+.contain p.time {
+    color: #555555;
+    font-family: 'Roboto', sans-serif;
+
+}

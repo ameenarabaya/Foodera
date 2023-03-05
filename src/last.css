@@ -1,0 +1,35 @@
+footer {
+    background-color: #a82d49;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+.icons {
+    margin-bottom: 20px;
+}
+
+.icons span i {
+    color: white;
+    margin-right: 10px;
+    font-size: 27px;
+}
+
+p {
+    color: white;
+}

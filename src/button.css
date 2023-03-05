@@ -1,0 +1,18 @@
+ button {
+    background-color: #a82d49;
+    border: 3px solid #a82d49;
+    width: 150px;
+    height: 45px;
+    padding: 7px;
+    margin-right: 20px;
+    color: white;
+    letter-spacing: 1px;
+    z-index: 1;
+    
+}
+button:hover{
+    border:3px solid #a82d49;
+    background-color: white;
+   color: #a82d49;
+   transition: 500ms;
+}
